@@ -39,6 +39,11 @@ body {
   font-family: var(--font-family);
   font-size: var(--font-size);
   background-color: var(--color-neutral-light-grayish-blue);
+
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
