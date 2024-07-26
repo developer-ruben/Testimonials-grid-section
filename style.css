@@ -57,7 +57,7 @@ body {
 
 .testimonial {
   padding: 2.6rem 3.2rem;
-  border-radius: 1.8rem;
+  border-radius: 0.8rem;
   box-shadow: 40px 60px 50px -47px hsl(var(--clr-very-dark-grayish-blue), 0.2474);
   font-weight: 500;
   position: relative;
@@ -72,6 +72,7 @@ body {
   align-items: center;
   gap: 1.7rem;
   margin-bottom: 1.8rem;
+  line-height: 1;
   position: relative;
   z-index: 1;
 }
@@ -106,6 +107,7 @@ body {
 .testimonial__quote {
   color: hsl(var(--clr-light-gray));
   line-height: 1.8rem;
+  opacity: 0.7;
 }
 
 /* FIRST ELEMENT */
@@ -137,6 +139,10 @@ body {
   border: 0;
 }
 
+.testimonial:nth-child(2) .testimonial__quote {
+  color: hsl(var(--clr-white));
+}
+
 /* THIRD ELEMENT */
 
 .testimonial:nth-child(3) {
@@ -148,12 +154,11 @@ body {
 .testimonial:nth-child(3) .testimonial__name,
 .testimonial:nth-child(3) .testimonial__job,
 .testimonial:nth-child(3) .testimonial__headline {
-  color: hsl(var(--clr-very-dark-blackish-blue));
+  color: hsl(var(--clr-very-dark-grayish-blue));
 }
 
 .testimonial:nth-child(3) .testimonial__quote {
-  color: hsl(var(--clr-very-dark-blackish-blue));
-  opacity: 0.7;
+  color: hsl(var(--clr-very-dark-grayish-blue));
 }
 
 .testimonial:nth-child(3) .testimonial__avatar {
@@ -183,12 +188,11 @@ body {
 .testimonial:nth-child(5) .testimonial__name,
 .testimonial:nth-child(5) .testimonial__job,
 .testimonial:nth-child(5) .testimonial__headline {
-  color: hsl(var(--clr-very-dark-blackish-blue));
+  color: hsl(var(--clr-very-dark-grayish-blue));
 }
 
 .testimonial:nth-child(5) .testimonial__quote {
-  color: hsl(var(--clr-very-dark-blackish-blue));
-  opacity: 0.7;
+  color: hsl(var(--clr-very-dark-grayish-blue));
 }
 
 .testimonial:nth-child(5) .testimonial__avatar {
