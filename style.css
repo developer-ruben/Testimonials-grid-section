@@ -148,7 +148,8 @@ main {
   color: hsl(var(--clr-white));
 }
 
-.testimonial--white .testimonial__highlight {
+.testimonial--white .testimonial__highlight,
+.testimonial--black .testimonial__highlight {
   margin-bottom: 2.4rem;
 }
 
