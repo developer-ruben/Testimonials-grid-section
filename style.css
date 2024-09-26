@@ -148,6 +148,10 @@ main {
   color: hsl(var(--clr-white));
 }
 
+.testimonial--white .testimonial__highlight {
+  margin-bottom: 2.4rem;
+}
+
 .testimonial__header {
   display: flex;
   position: relative;
@@ -201,6 +205,8 @@ main {
   color: hsl(var(--clr-very-dark-grayish-blue));
   font-size: 11px;
   text-align: center;
+  background-color: hsl(var(--clr-white));
+  z-index: 1;
 }
 .attribution__link {
   color: hsl(var(--clr-moderate-violet));
